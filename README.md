@@ -12,9 +12,9 @@ This Python script creates an iCal file (`my_calendar.ics`) containing specified
 
 Install the required libraries using pip:
 
-````bash
+```bash
 pip install icalendar pytz
-
+```
 
 ## Usage
 
@@ -22,9 +22,8 @@ pip install icalendar pytz
 
    Example event format:
 
-   ```python
-   {"summary": "Event Title", "date": "YYYY-MM-DD HH:MM"}
-````
+python
+{"summary": "Event Title", "date": "YYYY-MM-DD HH:MM"}
 
 Use `YYYY-MM-DD` for events without a specific time.
 
