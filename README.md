@@ -1,18 +1,20 @@
-````
 # Calendar Event Script
 
 ## Overview
+
 This Python script creates an iCal file (`my_calendar.ics`) containing specified events. It uses `icalendar` and `pytz` libraries for iCal formatting and timezone management. This script is suitable for generating a custom calendar file importable into Google Calendar, Apple Calendar, Microsoft Outlook, and other calendar applications.
 
 ## Requirements
+
 - Python 3.x
 - `icalendar` library
 - `pytz` library
 
 Install the required libraries using pip:
-```bash
+
+````bash
 pip install icalendar pytz
-````
+
 
 ## Usage
 
@@ -22,9 +24,9 @@ pip install icalendar pytz
 
    ```python
    {"summary": "Event Title", "date": "YYYY-MM-DD HH:MM"}
-   ```
+````
 
-   Use `YYYY-MM-DD` for events without a specific time.
+Use `YYYY-MM-DD` for events without a specific time.
 
 2. **Run the Script**: Execute the script in your Python environment:
 
@@ -51,7 +53,3 @@ The script uses Eastern Time by default. Change the `eastern` variable for a dif
 ---
 
 Customize this script as needed. For issues or questions, refer to `icalendar` and `pytz` documentation or seek Python programming community support.
-
-```
-
-```
